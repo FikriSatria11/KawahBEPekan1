@@ -46,6 +46,7 @@ public class Kalkulator {
             String repeat = scan.next();
             if(!(repeat.equalsIgnoreCase("y"))){
                 System.out.println("Kalkulator Shutdown");
+                scan.close();
                 loop = false;
             }
         }
